@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Cut and Edge Lawncare</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      background: #f9f8f4;
+      color: #1a3815;
+      line-height: 1.6;
+      text-align: center;
+    }
+    header {
+      padding: 2rem 1rem;
+    }
+    header img {
+      max-width: 120px;
+    }
+    h1 {
+      font-size: 1.8rem;
+      margin: 1rem 0;
+    }
+    .cta-buttons {
+      margin: 1.5rem 0;
+    }
+    .cta-buttons a {
+      display: inline-block;
+      padding: 0.75rem 1.25rem;
+      background: #2f6e3b;
+      color: white;
+      text-decoration: none;
+      border-radius: 6px;
+      margin: 0.5rem;
+      font-weight: bold;
+    }
+    section {
+      padding: 2rem 1rem;
+    }
+    .services {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 1.5rem;
+      max-width: 800px;
+      margin: auto;
+    }
+    .service-item {
+      background: white;
+      padding: 1rem;
+      border-radius: 8px;
+      width: 220px;
+      box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+    }
+    .service-item h3 {
+      margin-top: 0.5rem;
+      font-size: 1.1rem;
+    }
+    .features {
+      list-style: none;
+      padding: 0;
+    }
+    .features li {
+      margin: 0.5rem 0;
+    }
+    form {
+      max-width: 500px;
+      margin: auto;
+      text-align: left;
+    }
+    form input, form textarea {
+      width: 100%;
+      padding: 0.5rem;
+      margin: 0.5rem 0;
+      border: 1px solid #ccc;
+      border-radius: 4px;
+    }
+    form button {
+      display: block;
+      width: 100%;
+      padding: 0.75rem;
+      background: #2f6e3b;
+      color: white;
+      font-weight: bold;
+      border: none;
+      border-radius: 4px;
+      cursor: pointer;
+    }
+    footer {
+      padding: 1rem;
+      font-size: 0.9rem;
+      background: #e9e6dc;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <img src="logo.png" alt="Cut and Edge Lawncare Logo" />
+    <h1>Precision Cuts. Clean Edges. Local Lawncare You Can Trust.</h1>
+    <div class="cta-buttons">
+      <a href="tel:8303462811">📞 Call Now: 830-346-2811</a>
+      <a href="#contact">Get a Free Quote</a>
+    </div>
+  </header>
+
+  <section>
+    <h2>About Us</h2>
+    <p>Local, reliable, licensed, and affordable lawncare service – proudly serving Medina and Bexar County. We handle both residential and commercial properties, offering personalized and dependable service.</p>
+  </section>
+
+  <section>
+    <h2>Our Services</h2>
+    <div class="services">
+      <div class="service-item">
+        <h3>🚜 Lawn Mowing</h3>
+      </div>
+      <div class="service-item">
+        <h3>🍂 Seasonal Clean-Ups</h3>
+      </div>
+      <div class="service-item">
+        <h3>✂️ Edging & Trimming</h3>
+      </div>
+      <div class="service-item">
+        <h3>🏠 Commercial & Residential</h3>
+      </div>
+    </div>
+  </section>
+
+  <section>
+    <h2>Serving Medina & Bexar County</h2>
+    <ul class="features">
+      <li>✔ Flexible Scheduling</li>
+      <li>✔ Affordable Pricing</li>
+      <li>✔ Licensed & Insured</li>
+    </ul>
+  </section>
+
+  <section id="contact">
+    <h2>Contact Us</h2>
+    <p>📞 830-346-5211 | ✉️ cutandedgels@gmail.com</p>
+    <form action="#" method="post">
+      <input type="text" name="name" placeholder="Name" required />
+      <input type="email" name="email" placeholder="Email" required />
+      <textarea name="message" placeholder="Message" rows="5" required></textarea>
+      <button type="submit">Send Message</button>
+    </form>
+  </section>
+
+  <footer>
+    &copy; 2025 Cut and Edge Lawncare. All Rights Reserved.
+  </footer>
+
+</body>
+</html>
